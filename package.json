@@ -1,0 +1,24 @@
+{
+  "name": "websul-backend",
+  "version": "1.0.0",
+  "description": "backend for web-sultanate task",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Yogendra",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
